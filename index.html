@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
     <title>Life-guider </title>
 
 </head>
@@ -887,10 +887,24 @@
     </section>
 
     <footer>
-        <p class="text-footer">This website is maintained and designed by Sandeep kumar along with team members VIVEK,
-            Yashwant and Vaishnavi Tripathi.</p>
+        <p class="text-footer">This website is maintained and designed by Vaishnavi Tripathi along with team members VIVEK,
+            Yashwant and Sandeep Kumar.</p>
         <h3 class="text-footer">Copyright &copy; 2021- www.lifeguider.com-All rights reserved</h3>
     </footer>
+
+    <script>burger = document.querySelector('.burger')
+        navbar = document.querySelector('.navbar')
+        rightnav = document.querySelector('.rightnav')
+        navList = document.querySelector('.nav-list')
+
+
+        burger.addEventListener('click', () => {
+            rightnav.classList.toggle('v-class');
+            navList.classList.toggle('v-class');
+            navbar.classList.toggle('h-nav');
+
+
+        })</script>
 </body>
 
 </html>
